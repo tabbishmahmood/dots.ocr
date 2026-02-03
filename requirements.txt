@@ -9,3 +9,5 @@ huggingface_hub
 modelscope
 flash-attn==2.8.0.post2
 accelerate
+python-multipart>=0.0.22 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
